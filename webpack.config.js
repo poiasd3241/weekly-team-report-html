@@ -21,9 +21,12 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "index.html",
+      template: "./src/page/index.html",
     }),
-
+    new HtmlWebpackPlugin({
+      filename: "launch-guide.html",
+      template: "./src/page/launch-guide.html",
+    }),
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
   ],
