@@ -3,22 +3,22 @@
 @import "~bootstrap/scss/mixins";
 
 // Colors.
-$theme-colors: (
-    "primary":    $yellow,
-    "secondary":  $secondary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark
-);
-
-$dark:     #1f2426;
+$dark: #1f2426;
 $gray-800: #333a3d;
-$white:    #fff;
-$yellow:  #ffc107;
+$white: #fff;
+$yellow: #fcd214;
+$blue-feedback: #0b3d67;
 
+$theme-colors: (
+    "primary": $yellow,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+);
 
 // Font.
 $btn-font-weight-lg: 800;
@@ -26,19 +26,27 @@ $btn-font-weight-link: 500;
 
 // Width & height.
 $header-height: 200px;
-$header-logo-height: 50px;
+$header-logo-height: 60px;
 
-$launch-guide-item-img-height: 30px;
+$launch-guide-items-width: 818px;
+$launch-guide-item-img-height: 350px;
 
 $aside-width: 250px;
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1070px,
+  xl: 1200px,
+  xxl: 1400px
+);
 
+// Buttons.
 $btn-padding-y-lg: 14px;
-
 $btn-font-size-lg: 18px;
 $link-decoration: unset;
 
-// Buttons.
 $btn-link-hover-color: $white;
 $btn-link-color: $white;
 $btn-link-border-color: $white;

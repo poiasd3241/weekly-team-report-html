@@ -1,3 +1,12 @@
+html,
+body {
+    height: 100%;
+}
+
+.color-yellow {
+    color: $yellow !important;
+}
+
 .page-header {
     background-image: url(/src/img/header-bg.png);
     height: $header-height;
@@ -12,12 +21,10 @@
     height: $header-logo-height;
 }
 
-.launch-guide-item-img{
-    // height: $launch-guide-item-img-height;
-    height: 30px;
+.launch-guide-items {
+    max-width: $launch-guide-items-width;
 }
 
-html, body{
-    //may cause troubless
-    height: 100%;
+.launch-guide-item-img {
+    height: $launch-guide-item-img-height;
 }
