@@ -75,7 +75,7 @@ const config = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "src/img", to: "img" }
+        { from: "src/img", to: "src/img" }
       ],
     }),
     // Add your plugins here
